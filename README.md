@@ -27,8 +27,8 @@ Requirements
 
 3. Running Tests
 
-To run all tests:
+   To run all tests:
 
-```
-npx playwright test --headed
-```
+   ```
+   npx playwright test --headed
+   ```
