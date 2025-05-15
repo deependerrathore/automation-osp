@@ -4,7 +4,7 @@ This Playwright test verifies that the Osapiens Careers Page lists at least one 
 
 ### ✅ What the test does:
 
-- Navigates to https://careers.osapiens.com/
+- Navigates to careers page
 - Retrieves all job listings
 - Extracts job titles from each listing
 - Checks if at least one job title contains the word "Quality" (case-insensitive)
