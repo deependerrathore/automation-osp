@@ -15,10 +15,10 @@ test('Careers page should list Quality ', async ({ page }) => {
     const titleElement = await row.getByRole('gridcell').locator('a').first();
 
     const title = await titleElement.textContent();
-    if (title) jobTitles.push(title.trim());
+    if (title) jobTitles.push(title.trim().toLowerCase());
   }
 
-  const qualityJobs = jobTitles.filter((title) => title.includes('Quality'));
+  const qualityJobs = jobTitles.filter((title) => title.includes('quality'));
 
   expect(qualityJobs.length, {
     message: 'Expected at least one job title to contain "Quality"',
