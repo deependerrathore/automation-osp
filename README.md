@@ -25,7 +25,7 @@ Requirements
    npm i
    ```
 
-### Running Tests
+3. Running Tests
 
 To run all tests:
 
