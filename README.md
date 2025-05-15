@@ -1,7 +1,15 @@
 ## Overview
 
-This framework tests the functionality of the Careers website, focusing on job listings, search capabilities, and application flows. It uses Playwright for browser automation and follows a Page Object Model pattern for maintainability.
-Requirements
+This Playwright test verifies that the Osapiens Careers Page lists at least one job title containing the word "Quality". It also logs the total number of job listings found on the page.
+
+### ✅ What the test does:
+
+- Navigates to https://careers.osapiens.com/
+- Retrieves all job listings
+- Extracts job titles from each listing
+- Checks if at least one job title contains the word "Quality" (case-insensitive)
+- Prints the total number of job listings to the console
+- Fails the test if no such title is found
 
 ## Setup Instructions
 
