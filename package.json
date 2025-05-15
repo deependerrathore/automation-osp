@@ -1,0 +1,23 @@
+{
+  "name": "automation-osp",
+  "version": "1.0.0",
+  "description": "Creating test script for osp",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deependerrathore/automation-osp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/deependerrathore/automation-osp/issues"
+  },
+  "homepage": "https://github.com/deependerrathore/automation-osp#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.18"
+  }
+}
